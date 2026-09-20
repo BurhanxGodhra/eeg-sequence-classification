@@ -1,18 +1,9 @@
-# eeg-sequence-model-pipeline
+# EEG Sequence Classification
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BurhanxGodhra/eeg-sequence-model-pipeline/blob/main/sequence_model_pipeline.ipynb)
 
-Sequence modeling and temporal feature extraction framework.
+An EEG classification experiment exploring sequence-based representations of neural signals.
 
-## Overview
-This repository contains a standalone Jupyter/Colab notebook setup for rapid execution and reproducibility.
+The project works with EEG recordings, preprocessing, feature preparation, sequence construction, and classification.
 
-## Quickstart
-1. Click the **Open in Colab** badge above to launch directly in Google Colab.
-2. To run locally:
-   ```bash
-   git clone https://github.com/BurhanxGodhra/eeg-sequence-model-pipeline.git
-   cd eeg-sequence-model-pipeline
-   pip install -r requirements.txt
-   jupyter notebook sequence_model_pipeline.ipynb
-   ```
+**Tools:** Python · MNE · Scikit-learn
